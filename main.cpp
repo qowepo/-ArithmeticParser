@@ -9,7 +9,7 @@ int main()
     std::string expression;
 
     std::cout << "Supported operators:" << std::endl;
-    for (const auto& t : Tokens::supportedOperators) std::cout << t.first << "\t";
+    for (const auto& t : Tokens::supportedOperators) std::cout << t.first << "\n";
     std::cout << std::endl << std::endl;
 
     while (true)
